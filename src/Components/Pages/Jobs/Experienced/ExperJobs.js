@@ -69,7 +69,7 @@ const ExperJobs = () => {
                 </div>
             </div>
             <div className='mt-16 card-actions justify-center'>
-                <Link to='/fresher'><button className="btn" style={{ backgroundColor: '#6c63ff', border: '2px solid #6c63ff' }}>See All Jobs</button></Link>
+                <Link to='/experience'><button className="btn" style={{ backgroundColor: '#6c63ff', border: '2px solid #6c63ff' }}>See All Jobs</button></Link>
             </div>
         </div>
     );
