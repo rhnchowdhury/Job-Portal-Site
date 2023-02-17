@@ -1,9 +1,10 @@
 import React from 'react';
+import FirstPart from '../Jobs/FirstPart';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is Home</h1>
+            <FirstPart></FirstPart>
         </div>
     );
 };
