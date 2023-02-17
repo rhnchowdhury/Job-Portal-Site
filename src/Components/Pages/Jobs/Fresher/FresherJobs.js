@@ -78,7 +78,7 @@ const FresherJobs = () => {
                 </div>
             </div>
             <div className='mt-16 card-actions justify-center'>
-                <Link><button className="btn" style={{ backgroundColor: '#ff6347', border: '2px solid #ff6347' }}>See All Jobs</button></Link>
+                <Link to='/fresher'><button className="btn" style={{ backgroundColor: '#ff6347', border: '2px solid #ff6347' }}>See All Jobs</button></Link>
 
             </div>
         </div>
