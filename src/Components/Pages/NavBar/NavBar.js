@@ -7,9 +7,11 @@ const NavBar = () => {
         <li><Link to='/'>About</Link></li>
         <li><Link to='/'>Contact Us</Link></li>
         <li><Link to='/'>Sign In</Link></li>
+        <li><Link to='/' className=" text-white rounded" style={{ backgroundColor: '#6c63ff' }}>Job Seeker</Link></li>
+        <li><Link to='/' className=" text-white rounded ml-2" style={{ backgroundColor: '#ff6347' }}>Job Poster</Link></li>
     </React.Fragment>
     return (
-        <div className="navbar bg-sky-500">
+        <div className="navbar">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,9 +27,6 @@ const NavBar = () => {
                 <ul className="menu menu-horizontal px-1">
                     {menuItems}
                 </ul>
-            </div>
-            <div className="navbar-end">
-                <Link to='/' className="btn">Get started</Link>
             </div>
         </div>
     );
