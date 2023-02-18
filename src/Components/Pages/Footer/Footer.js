@@ -2,24 +2,27 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer p-10 bg-black text-base-content">
+        <div className='mt-16'>
+            <footer className="footer p-16 bg-black text-base-content">
                 <div>
                     <span className="footer-title text-white">Services</span>
-                    <p className='text-white'>Far far away, behind the word <br /> mountains, far from the countries <br /> Vokalia and Consonantia, there live <br /> the blind texts.</p>
+                    <p className='text-white font-medium'>Far far away, behind the word <br /> mountains, far from the countries <br /> Vokalia and Consonantia, there live <br /> the blind texts.</p>
                 </div>
                 <div>
                     <span className="footer-title text-white">Employers</span>
-                    <a href='#' className="link link-hover text-white">How it works</a>
-                    <a href='#' className="link link-hover text-white">Register</a>
-                    <a className="link link-hover text-white">Jobs</a>
-                    <a className="link link-hover text-white">Press kit</a>
+                    <a href='works' className="link link-hover text-white font-medium">How it works</a>
+                    <a href='reg' className="link link-hover text-white font-medium">Register</a>
+                    <a href='post' className="link link-hover text-white font-medium">Post a Job</a>
+                    <a href='skill' className="link link-hover text-white font-medium">Advance Skill Search</a>
+                    <a href='recruit' className="link link-hover text-white font-medium">Recruiting Search</a>
                 </div>
                 <div>
                     <span className="footer-title text-white">Workers</span>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
+                    <a href='works' className="link link-hover text-white font-medium">How it works</a>
+                    <a href='reg' className="link link-hover text-white font-medium">Register</a>
+                    <a href='skill' className="link link-hover text-white font-medium">Post Your Skills</a>
+                    <a href='skill' className="link link-hover text-white font-medium">Job Search</a>
+                    <a href='skill' className="link link-hover text-white font-medium">Employer Search</a>
                 </div>
                 <div>
                     <span className="footer-title text-white">Newsletter</span>
@@ -33,7 +36,11 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+
             </footer>
+            <div className='card-actions justify-center bg-black '>
+                <p className='text-white'>Copyright © 2023 - All right reserved |</p>
+            </div>
         </div>
     );
 };
