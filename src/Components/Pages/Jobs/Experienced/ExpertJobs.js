@@ -8,7 +8,7 @@ const ExpertJobs = () => {
             <div className='grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8'>
                 <div className="indicator">
                     <div className="indicator-item indicator-bottom">
-                        <button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button>
+                        <Link to='/login'><button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button></Link>
                     </div>
                     <div className="card border">
                         <div className="card-body">
@@ -19,7 +19,8 @@ const ExpertJobs = () => {
                 </div>
                 <div className="indicator">
                     <div className="indicator-item indicator-bottom">
-                        <button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button>                    </div>
+                        <Link to='/login'><button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button></Link>
+                    </div>
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">JavaScript Developer</h2>
@@ -29,7 +30,8 @@ const ExpertJobs = () => {
                 </div>
                 <div className="indicator">
                     <div className="indicator-item indicator-bottom">
-                        <button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button>                    </div>
+                        <Link to='/login'><button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button></Link>
+                    </div>
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">Backend Developer</h2>
@@ -39,7 +41,8 @@ const ExpertJobs = () => {
                 </div>
                 <div className="indicator">
                     <div className="indicator-item indicator-bottom">
-                        <button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button>                    </div>
+                        <Link to='/login'><button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button></Link>
+                    </div>
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">Full Stack Developer</h2>
@@ -49,7 +52,8 @@ const ExpertJobs = () => {
                 </div>
                 <div className="indicator">
                     <div className="indicator-item indicator-bottom">
-                        <button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button>                    </div>
+                        <Link to='/login'><button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button></Link>
+                    </div>
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">JavaScript Developer</h2>
@@ -59,7 +63,8 @@ const ExpertJobs = () => {
                 </div>
                 <div className="indicator">
                     <div className="indicator-item indicator-bottom">
-                        <button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button>                    </div>
+                        <Link to='/login'><button className="btn" style={{ backgroundColor: '#ff6347', border: '1px solid #ff6347' }}>Apply</button></Link>
+                    </div>
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">Backend Developer</h2>
