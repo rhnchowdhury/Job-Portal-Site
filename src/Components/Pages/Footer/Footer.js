@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='mt-16'>
-            <footer className="footer p-16 bg-black text-base-content">
+            <footer className="footer py-12 bg-black text-base-content">
                 <div>
                     <span className="footer-title text-white">Services</span>
                     <p className='text-white font-medium'>Far far away, behind the word <br /> mountains, far from the countries <br /> Vokalia and Consonantia, there live <br /> the blind texts.</p>
@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <span className="footer-title text-white">Newsletter</span>
-                    <div className="form-control w-80">
+                    <div className="form-control w-full max-w-sm">
                         <label className="label">
                             <span className="label-text text-white">Enter your email address</span>
                         </label>

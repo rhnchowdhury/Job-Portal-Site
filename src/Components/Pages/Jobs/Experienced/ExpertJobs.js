@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ExpertJobs = () => {
     return (
-        <div className='m-7 mt-4'>
+        <div className='m-3 lg:m-7 mt-4' >
             <h1 className='text-4xl font-bold'>Experienced Jobs</h1>
             <div className='grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8'>
                 <div className="indicator">
@@ -12,7 +12,7 @@ const ExpertJobs = () => {
                     </div>
                     <div className="card border">
                         <div className="card-body">
-                            <h2 className="card-title text-2xl">Full Stack Developer</h2>
+                            <h2 className="card-title lg:text-2xl">Full Stack Developer</h2>
                             <span className="badge badge-warning text-white" >Full time</span>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ const ExpertJobs = () => {
                     </div>
                     <div className="card border">
                         <div className="card-body">
-                            <h2 className="card-title text-2xl">JavaScript Developer</h2>
+                            <h2 className="card-title lg:text-2xl">JavaScript Developer</h2>
                             <span className="badge badge-warning text-white" >Full time</span>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const ExpertJobs = () => {
                     </div>
                     <div className="card border">
                         <div className="card-body">
-                            <h2 className="card-title text-2xl">Backend Developer</h2>
+                            <h2 className="card-title lg:text-2xl">Backend Developer</h2>
                             <span className="badge badge-warning text-white" >Full time</span>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const ExpertJobs = () => {
                     </div>
                     <div className="card border">
                         <div className="card-body">
-                            <h2 className="card-title text-2xl">Full Stack Developer</h2>
+                            <h2 className="card-title lg:text-2xl">Full Stack Developer</h2>
                             <span className="badge badge-warning text-white" >Full time</span>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const ExpertJobs = () => {
                     </div>
                     <div className="card border">
                         <div className="card-body">
-                            <h2 className="card-title text-2xl">JavaScript Developer</h2>
+                            <h2 className="card-title lg:text-2xl">JavaScript Developer</h2>
                             <span className="badge badge-warning text-white" >Full time</span>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const ExpertJobs = () => {
                     </div>
                     <div className="card border">
                         <div className="card-body">
-                            <h2 className="card-title text-2xl">Backend Developer</h2>
+                            <h2 className="card-title lg:text-2xl">Backend Developer</h2>
                             <span className="badge badge-warning text-white" >Full time</span>
                         </div>
                     </div>

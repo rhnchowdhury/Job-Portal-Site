@@ -5,7 +5,7 @@ import { AiFillHeart } from "react-icons/ai";
 
 const JobDetails = () => {
     return (
-        <div className='m-7'>
+        <div className='m-3 lg:m-7'>
             <div className='block lg:flex justify-between border-2 py-2'>
                 <div className='ml-2'>
                     <h1 className='text-2xl font-semibold'>Full Stack Developer</h1>
