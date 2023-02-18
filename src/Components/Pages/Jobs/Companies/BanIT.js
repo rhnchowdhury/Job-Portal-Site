@@ -5,7 +5,7 @@ const BanIT = () => {
     return (
         <div className='m-7'>
             <h1 className='text-4xl font-bold mt-5'>IT Companies</h1>
-            <p className='font-light text-center mt-8'>Top 3 IT Companies in Bangladesh.</p>
+            <p className=' text-center mt-8' style={{ color: '#6c63ff' }}>Top 3 IT Companies in Bangladesh.</p>
             <div className='grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8'>
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <div className="card-body">

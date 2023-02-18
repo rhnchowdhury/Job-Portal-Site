@@ -17,7 +17,7 @@ const FresherJobs = () => {
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">Frontend Development</h2>
-                            <span className="badge" style={{ backgroundColor: '#6c63ff', border: '1px solid #6c63ff' }}>Part time</span>
+                            <span className="badge badge-success text-white">Internship</span>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ const FresherJobs = () => {
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">Full Stack Developer</h2>
-                            <span className="badge badge-warning text-white" >Full time</span>
+                            <span className="badge badge-success text-white">Internship</span>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const FresherJobs = () => {
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">Web Developer</h2>
-                            <span className="badge badge-success text-white">Full time</span>
+                            <span className="badge badge-success text-white">Internship</span>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const FresherJobs = () => {
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">Frontend Development</h2>
-                            <span className="badge text-white">Internship</span>
+                            <span className="badge badge-success text-white">Internship</span>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const FresherJobs = () => {
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">Full Stack Developer</h2>
-                            <span className="badge badge-info text-white">Freelance</span>
+                            <span className="badge badge-success text-white">Internship</span>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ const FresherJobs = () => {
                     <div className="card border">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">Web Designer</h2>
-                            <span className="badge badge-error text-white">Temporary</span>
+                            <span className="badge badge-success text-white">Internship</span>
                         </div>
                     </div>
                 </div>

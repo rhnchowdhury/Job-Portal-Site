@@ -4,7 +4,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 const ForeignIT = () => {
     return (
         <div className='m-7'>
-            <p className='font-light text-center mt-8'>Top 3 IT Companies in World.</p>
+            <p className='text-center mt-12' style={{ color: '#ff6347' }}>Top 3 IT Companies in the World.</p>
             <div className='grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8'>
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <div className="card-body">
