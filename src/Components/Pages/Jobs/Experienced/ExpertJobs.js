@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ExperJobs = () => {
+const ExpertJobs = () => {
     return (
         <div className='m-7 mt-4'>
             <h1 className='text-4xl font-bold'>Experienced Jobs</h1>
@@ -75,4 +75,4 @@ const ExperJobs = () => {
     );
 };
 
-export default ExperJobs;
+export default ExpertJobs;
