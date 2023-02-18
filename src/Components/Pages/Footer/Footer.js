@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
 
             </footer>
-            <div className='card-actions justify-center bg-black '>
+            <div className='card-actions justify-center bg-black'>
                 <p className='text-white'>Copyright © 2023 - All right reserved |</p>
             </div>
         </div>
